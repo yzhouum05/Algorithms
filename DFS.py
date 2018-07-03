@@ -20,8 +20,7 @@ def dfs_iterative(graph, start):
     return visited
 
 
-def dfs_recursive(graph, start, visited = None):
-    if not visited: visited = []
+def dfs_recursive(graph, start, visited = []):
     if start not in visited: visited.append(start)
     for vertex in graph[start] - set(visited):
         dfs_recursive(graph, vertex, visited)
