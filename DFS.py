@@ -1,7 +1,6 @@
 
 # coding: utf-8
 
-# # Depth-First Search
 # Depth First Search
 # 
 # Example: Binary Tree Level-Order Traversal
